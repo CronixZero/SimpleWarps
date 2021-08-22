@@ -1,0 +1,22 @@
+name: SimpleWarps
+author: CronixZero
+
+version: 1.0.0
+api-version: 1.16
+main: de.cronixzero.simplewarps.SimpleWarps
+
+commands:
+  warpgui:
+    description: Manage & teleport to warps
+    aliases: [warpmenu]
+  setwarp:
+    description: Create Warps
+  warp:
+    description: Teleport to Warps
+    aliases: [goto]
+  warplist:
+    description: List all Warps
+    aliases: [warps]
+  deletewarp:
+    description: Delete Warps
+    aliases: [delwarp, remwarp, removewarp]
